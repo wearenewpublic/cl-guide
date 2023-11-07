@@ -1,5 +1,6 @@
 import { BrowserScreen } from "./browser";
 import { SidebarScreen } from "./sidebar";
+import { StepsScreen, StepsTitle } from "./steps";
 
 export const screens = {
     browser: {
@@ -10,5 +11,10 @@ export const screens = {
         name: 'sidebar',
         component: SidebarScreen,
     },
+    steps: {
+        name: 'steps',
+        title: StepsTitle,
+        component: StepsScreen,
+    }
 }
 
